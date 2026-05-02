@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: revolution-cad
+Version: 0.1.0
+Summary: Convert closed 2D DXF profiles into revolved 3D CAD outputs and SVG previews.
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24
+Provides-Extra: cad
+Requires-Dist: build123d>=0.9; extra == "cad"
+Requires-Dist: ezdxf>=1.3; extra == "cad"
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == "test"
+Requires-Dist: pytest-cov>=5; extra == "test"
